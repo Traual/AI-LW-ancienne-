@@ -337,8 +337,6 @@ if (isAlive(enemy)) {
 	useChipOnCell(CHIP_LIGHTNING, useCHiporWeaponarea(CHIP_LIGHTNING, 2, leek2));
 }
 
-
-say(lama());
 	say("Rayman et bah il é mosh");
 	say("Pump et bah il é mosh");
 	say("Ref et bah il é mosh");
