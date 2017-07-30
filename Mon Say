@@ -1,10 +1,11 @@
-function PkTuDitSa() {
+function PkTuDisSa() {
 var tab = [] ;
 for (var i in listen()) {
-	if (listen()!=null) {
+	if (i!=null) {
 		push(tab, i);
 	}
 }
-		say("Pourquoi tu dit"+string([randInt(0, count(tab))])+"?");
-	
+if (tab!=null) {
+			say("Pourquoi tu dit"+string([randInt(0, count(tab))])+"?");
+}
 }
