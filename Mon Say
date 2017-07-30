@@ -1,0 +1,11 @@
+function PkTuDitSa() {
+var tab = [] ;
+	for (var i in getAliveEnemies()) {
+		if (getMessages(i)!=null) {
+			push(tab, getMessages(i));
+		}
+	}
+	if (tab !=null) {
+		say("Pourquoi tu dit"+string([randInt(0, count(tab))])+"?");
+	}
+}
